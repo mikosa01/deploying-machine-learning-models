@@ -16,4 +16,4 @@ setuptools>=41.4.0
 wheel>=0.33.6
 
 # fetching datasets
-kaggle>=1.5.6,<1.6.0
+kaggle>=1.5.6
