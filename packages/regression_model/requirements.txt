@@ -5,8 +5,8 @@
 # Model Building Requirements
 numpy>=1.18.1
 pandas>=0.25.3
-scikit-learn==0.20.1
-joblib>=0.14.1
+scikit-learn
+joblib
 
 # testing requirements
 pytest>=5.3.2
