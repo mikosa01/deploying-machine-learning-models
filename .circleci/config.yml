@@ -7,26 +7,17 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Install Packages
+          name: Runnning tests
           command: |
             virtualenv venv
             . venv/bin/activate
             pip install --upgrade pip
-            pip install -r packages/regression_model/requirements.txt --upgrade
-      - run:
-          name: Print Debug Information
-          command: |
-            . venv/bin/activate
-            python --version
-            pip list
-      - run: 
-          name: Runing Test
-          command: |
+            pip install -r packages/regression_model/requirements.txt
             chmod +x ./scripts/fetch_kaggle_dataset.sh
             ./scripts/fetch_kaggle_dataset.sh
             py.test -vv packages/regression_model/tests
-      
 
+          
 
 workflows:
   version: 2
