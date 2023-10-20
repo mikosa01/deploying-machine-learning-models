@@ -16,6 +16,13 @@ jobs:
             chmod +x ./scripts/fetch_kaggle_dataset.sh
             ./scripts/fetch_kaggle_dataset.sh
             py.test -vv packages/regression_model/tests
+        - run:
+          name: Print Debug Information
+          command: |
+            . venv/bin/activate
+            python --version
+            pip list
+
 
 workflows:
   version: 2
