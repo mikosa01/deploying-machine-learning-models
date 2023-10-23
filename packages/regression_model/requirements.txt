@@ -2,7 +2,7 @@
 # to specify acceptable version ranges of our project dependencies. This gives us the flexibility to keep up with small
 # updates/fixes, whilst ensuring we don't install a major update which could introduce backwards incompatible changes.
 
-# Model Building Requirements.
+# Model Building Requirements
 numpy>=1.18.1
 pandas>=0.25.3
 scikit-learn>=1.0.2
