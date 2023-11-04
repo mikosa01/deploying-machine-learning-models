@@ -2,6 +2,7 @@
 
 # api
 flask==1.1.1
+jinja2==2.10.3
 
 # schema validation
 marshmallow==2.17.0
