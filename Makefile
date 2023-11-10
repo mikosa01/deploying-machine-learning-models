@@ -1,5 +1,6 @@
 NAME=udemy-ml-api
 COMMIT_ID=$(shell git rev-parse HEAD)
+PIP_EXTRA_INDEX_URL=https://vVC48e5V1wRN442mCE52@pypi.fury.io/mikosa/
 
 
 build-ml-api-heroku:
