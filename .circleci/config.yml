@@ -128,7 +128,7 @@ jobs:
       - run: 
           name: Build and Push Image
           command: |
-            make build-ml-api-heroku push-ml-api-heroku
+            make build-ml-app-heroku push-ml-app-heroku
       - run: 
           name: Release to Heroku
           command: |
